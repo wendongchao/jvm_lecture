@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7dd715f-de6b-4d72-8777-e85a8b2af52d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jvm_lecture" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\maven\repository" />
+        <option name="mavenHome" value="D:/software/maven/apache-maven-3.6.2-bin/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UtCXRlMnF0Ge8KCHaxGMtPPa27" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\idea\jvm_lecture\src\main\java\com\itcast\jvm\classloader" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest23">
+    <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest1" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest18" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest19" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest20" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest23" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyTest1" />
+      <item itemvalue="Application.MyTest18" />
+      <item itemvalue="Application.MyTest19" />
+      <item itemvalue="Application.MyTest20" />
+      <item itemvalue="Application.MyTest23" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest23" />
+        <item itemvalue="Application.MyTest20" />
+        <item itemvalue="Application.MyTest19" />
+        <item itemvalue="Application.MyTest18" />
+        <item itemvalue="Application.MyTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7dd715f-de6b-4d72-8777-e85a8b2af52d" name="Default Changelist" comment="" />
+      <created>1576166543357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576166543357</updated>
+      <workItem from="1576166547087" duration="2236000" />
+      <workItem from="1576290413449" duration="7258000" />
+      <workItem from="1576333561478" duration="2794000" />
+      <workItem from="1576336379099" duration="2140000" />
+      <workItem from="1576420117236" duration="1597000" />
+      <workItem from="1576501805864" duration="7934000" />
+      <workItem from="1576589909072" duration="6347000" />
+      <workItem from="1576760695189" duration="829000" />
+      <workItem from="1576761570547" duration="236000" />
+      <workItem from="1576766144798" duration="311000" />
+      <workItem from="1576773377805" duration="537000" />
+      <workItem from="1576773933878" duration="86000" />
+      <workItem from="1576774023902" duration="95000" />
+      <workItem from="1576774316635" duration="164000" />
+      <workItem from="1576774528186" duration="1426000" />
+      <workItem from="1576775969208" duration="1488000" />
+      <workItem from="1576777906315" duration="76000" />
+      <workItem from="1576778029104" duration="224000" />
+      <workItem from="1576930327301" duration="9015000" />
+      <workItem from="1576943875541" duration="47000" />
+      <workItem from="1576943958440" duration="331000" />
+      <workItem from="1576944892471" duration="563000" />
+      <workItem from="1576945499732" duration="129000" />
+      <workItem from="1576945702040" duration="637000" />
+      <workItem from="1576946480568" duration="228000" />
+      <workItem from="1576947262655" duration="103000" />
+      <workItem from="1576948038556" duration="334000" />
+      <workItem from="1576972837642" duration="194000" />
+      <workItem from="1576973078774" duration="141000" />
+      <workItem from="1576973230127" duration="4596000" />
+      <workItem from="1576978211977" duration="451000" />
+      <workItem from="1576978674868" duration="8669000" />
+      <workItem from="1577193892488" duration="9877000" />
+      <workItem from="1577281277112" duration="3288000" />
+      <workItem from="1577552956935" duration="357000" />
+      <workItem from="1577553329113" duration="962000" />
+      <workItem from="1577589731563" duration="10770000" />
+      <workItem from="1577710868600" duration="4576000" />
+      <workItem from="1577792207375" duration="4963000" />
+      <workItem from="1577842172206" duration="604000" />
+      <workItem from="1577877981402" duration="4179000" />
+      <workItem from="1577968050753" duration="5841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577715917650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577715917650" />
+    <state x="572" y="171" key="FileChooserDialogImpl" timestamp="1577976092211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577976092211" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1577808179082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577808179082" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1577808179082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577808179082" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1577808179082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577808179082" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1577808179082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577808179082" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1577976071170">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577976071170" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576972840185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576972840185" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577024031107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577024031107" />
+  </component>
+</project>

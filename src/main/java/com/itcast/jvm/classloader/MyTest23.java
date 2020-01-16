@@ -12,6 +12,45 @@ import sun.misc.Launcher;
  * 进行下去，加载第一个纯java类加载器就是启动类加载器的职责。
  * 启动类加载器还会负责加载供jre正常进行所需要的基本组件，这包括java.util与java.lang包中的类等等。
  */
+
+/**
+ *     public ClassLoader run() throws Exception {
+ *         String cls = System.getProperty("java.system.class.loader");
+ *         if (cls == null) {
+ *             return parent;
+ *         }
+ *
+ *         Constructor<?> ctor = Class.forName(cls, true, parent)
+ *             .getDeclaredConstructor(new Class<?>[] { ClassLoader.class });
+ *         ClassLoader sys = (ClassLoader) ctor.newInstance(
+ *             new Object[] { parent });
+ *         Thread.currentThread().setContextClassLoader(sys);
+ *         return sys;
+ *     }
+ *     代码分析：
+ *     18：先判断系统设置java.system.class.loader了没（设置自定义系统类加载器），如果没有则返回系统默认的系统类加载器
+ *     如果有，则把自定义类加载器设置为系统类加载器。
+ *     23：根据自定义类加载器加载的类和双亲类加载器，得到被加载类的class对象。并且调用getDeclaredConstructor()方法传入一个class对象（ClassLoader.class）
+ *     25：传入一个Object类对象（系统类加载器），这里可以体现，如果一个类要自定义类加载器时，需要在其类中创建一个有参构造函数，
+ *     传入ClassLoader参数，
+ *
+ *     Class.forName(cls, true, parent)
+ *     Returns the {@code Class} object associated with the class or
+ *     interface with the given string name, using the given class loader.
+ *     Given the fully qualified name for a class or interface (in the same
+ *     format returned by {@code getName}) this method attempts to
+ *     locate, load, and link the class or interface.  The specified class
+ *     loader is used to load the class or interface.  If the parameter
+ *     {@code loader} is null, the class is loaded through the bootstrap
+ *     class loader.  The class is initialized only if the
+ *     {@code initialize} parameter is {@code true} and if it has
+ *     not been initialized earlier.
+ *
+ * 	  返回具有类或接口与给定字符串名称相关联的{@code Class}对象，使用给定的类加载器。
+ * 	  鉴于全名的类或接口（通过返回的格式相同{@code getName}）这个方法尝试定位，加载和链接的类或接口。
+ * 	  指定的类加载器用于加载的类或接口。 如果参数{@code loader}为空，类是通过引导类加载器加载。
+ * 	  该类被初始化只有在@code {}initialize参数为{@code true}，如果它没有被更早初始化。
+ */
 public class MyTest23 {
     public static void main(String[] args) {
         System.out.println(System.getProperty("sun.boot.class.path"));

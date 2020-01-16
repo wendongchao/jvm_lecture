@@ -28,6 +28,11 @@ public class MyTest16 extends ClassLoader{
 
     private final String fileExtension = ".class";
 
+    //传入ClassLoader参数，用于设置自定义系统类加载器。
+    public MyTest16(ClassLoader classLoader){
+        super(classLoader);
+    }
+
     /**
      * 创建了一个自定义加载器的对象，同时将系统类加载器作为当前类加载器的一个父加载器
      * @param classLoaderName

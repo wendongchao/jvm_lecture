@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7dd715f-de6b-4d72-8777-e85a8b2af52d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/itcast/jvm/classloader/MyTest13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/itcast/jvm/classloader/MyTest16.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/itcast/jvm/classloader/MyTest16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/itcast/jvm/classloader/MyTest23.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/itcast/jvm/classloader/MyTest23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest23.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +84,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UtCXRlMnF0Ge8KCHaxGMtPPa27" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -81,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringBootDemo-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,29 +106,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\idea\jvm_lecture\src\main\java\com\itcast\jvm\classloader" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest23">
-    <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest1" />
-      <module name="jvm_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest18" />
+  <component name="RunManager" selected="Application.MyTest24">
+    <configuration name="MyTest16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest16" />
       <module name="jvm_lecture.main" />
       <extension name="coverage">
         <pattern>
@@ -164,20 +166,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest24" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MyTest1" />
-      <item itemvalue="Application.MyTest18" />
       <item itemvalue="Application.MyTest19" />
       <item itemvalue="Application.MyTest20" />
       <item itemvalue="Application.MyTest23" />
+      <item itemvalue="Application.MyTest16" />
+      <item itemvalue="Application.MyTest24" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest24" />
+        <item itemvalue="Application.MyTest16" />
         <item itemvalue="Application.MyTest23" />
         <item itemvalue="Application.MyTest20" />
         <item itemvalue="Application.MyTest19" />
-        <item itemvalue="Application.MyTest18" />
-        <item itemvalue="Application.MyTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +264,16 @@
       <workItem from="1577842172206" duration="604000" />
       <workItem from="1577877981402" duration="4179000" />
       <workItem from="1577968050753" duration="7546000" />
+      <workItem from="1578125870855" duration="118000" />
+      <workItem from="1578126203159" duration="2576000" />
+      <workItem from="1578153195273" duration="64000" />
+      <workItem from="1578236075324" duration="3196000" />
+      <workItem from="1579059951464" duration="1722000" />
+      <workItem from="1579061695970" duration="226000" />
+      <workItem from="1579061941315" duration="483000" />
+      <workItem from="1579078195512" duration="1052000" />
+      <workItem from="1579097247541" duration="3205000" />
+      <workItem from="1579181818263" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="jvm学习笔记">
       <created>1577976200145</created>
@@ -263,55 +288,80 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jvm学习笔记" />
     <option name="LAST_COMMIT_MESSAGE" value="jvm学习笔记" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1579059970390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1579059970390" />
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577715917650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577715917650" />
-    <state x="362" y="10" key="CommitChangelistDialog2" timestamp="1577976199219">
+    <state x="362" y="10" key="CommitChangelistDialog2" timestamp="1579189677785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577976199219" />
-    <state x="572" y="171" key="FileChooserDialogImpl" timestamp="1577976092211">
+    <state x="362" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579189677785" />
+    <state x="708" y="319" key="FileChooserDialogImpl" timestamp="1579061595894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577976092211" />
-    <state width="746" height="388" key="GridCell.Tab.0.bottom" timestamp="1577976402638">
+    <state x="708" y="319" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579061595894" />
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1579183511915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="388" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577976402638" />
-    <state width="746" height="388" key="GridCell.Tab.0.center" timestamp="1577976402638">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579183511915" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1579183511915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="388" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577976402638" />
-    <state width="746" height="388" key="GridCell.Tab.0.left" timestamp="1577976402637">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579183511915" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1579183511913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="388" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577976402637" />
-    <state width="746" height="388" key="GridCell.Tab.0.right" timestamp="1577976402638">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579183511913" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1579183511915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="388" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577976402638" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1577976071170">
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579183511915" />
+    <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1578134251615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577976071170" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1577976275352">
+    <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1578134251615" />
+    <state x="272" y="14" width="1068" height="707" key="SettingsEditor" timestamp="1579183321320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577976275352" />
+    <state x="272" y="14" width="1068" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579183321320" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1577978362091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577978362091" />
     <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576972840185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576972840185" />
-    <state x="457" y="215" key="git4idea.merge.GitPullDialog" timestamp="1577978165062">
+    <state x="457" y="215" key="git4idea.merge.GitPullDialog" timestamp="1579189632167">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="457" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1577978165062" />
+    <state x="457" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579189632167" />
+    <state x="130" y="121" width="1180" height="622" key="new project wizard" timestamp="1579078243375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="130" y="121" width="1180" height="622" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579078243375" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577024031107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

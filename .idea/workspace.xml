@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7dd715f-de6b-4d72-8777-e85a8b2af52d" name="Default Changelist" comment="" />
+    <list default="true" id="a7dd715f-de6b-4d72-8777-e85a8b2af52d" name="Default Changelist" comment="jvm学习笔记">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/bytecode/MyTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itcast/jvm/classloader/MyTest27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -42,10 +58,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="wendongchao" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="74144210-64cd-4faf-9c3b-895a87d90fc2" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -91,55 +110,29 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\idea\jvm_lecture\src\main\java\com\itcast\jvm\classloader" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest24">
+  <component name="RunManager" selected="Application.MyTest26">
+    <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest1" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest16" />
-      <module name="jvm_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest19" />
-      <module name="jvm_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest20" />
-      <module name="jvm_lecture.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest23" />
       <module name="jvm_lecture.main" />
       <extension name="coverage">
         <pattern>
@@ -164,20 +157,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest25" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itcast.jvm.classloader.MyTest26" />
+      <module name="jvm_lecture.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itcast.jvm.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MyTest19" />
-      <item itemvalue="Application.MyTest20" />
-      <item itemvalue="Application.MyTest23" />
       <item itemvalue="Application.MyTest16" />
       <item itemvalue="Application.MyTest24" />
+      <item itemvalue="Application.MyTest25" />
+      <item itemvalue="Application.MyTest1" />
+      <item itemvalue="Application.MyTest26" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest26" />
+        <item itemvalue="Application.MyTest1" />
+        <item itemvalue="Application.MyTest25" />
         <item itemvalue="Application.MyTest24" />
         <item itemvalue="Application.MyTest16" />
-        <item itemvalue="Application.MyTest23" />
-        <item itemvalue="Application.MyTest20" />
-        <item itemvalue="Application.MyTest19" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +278,20 @@
       <workItem from="1579078195512" duration="1052000" />
       <workItem from="1579097247541" duration="3205000" />
       <workItem from="1579181818263" duration="5682000" />
+      <workItem from="1579266513164" duration="7013000" />
+      <workItem from="1579317820215" duration="922000" />
+      <workItem from="1579696739393" duration="1104000" />
+      <workItem from="1579854557404" duration="3145000" />
+      <workItem from="1580375286846" duration="2325000" />
+      <workItem from="1580456008590" duration="13124000" />
+      <workItem from="1580615501500" duration="3023000" />
+      <workItem from="1580724636010" duration="1357000" />
+      <workItem from="1580737549668" duration="2685000" />
+      <workItem from="1580784891995" duration="1199000" />
+      <workItem from="1580810244776" duration="1961000" />
+      <workItem from="1580898267271" duration="1753000" />
+      <workItem from="1581086333716" duration="199000" />
+      <workItem from="1581086554535" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="jvm学习笔记">
       <created>1577976200145</created>
@@ -298,58 +331,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="jvm学习笔记" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="74" key="#Notifications" timestamp="1579059970390">
+    <state x="361" y="74" key="#Notifications" timestamp="1580810268326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1579059970390" />
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1580810268326" />
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577715917650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577715917650" />
-    <state x="362" y="10" key="CommitChangelistDialog2" timestamp="1579190028640">
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1580737867743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579190028640" />
-    <state x="708" y="319" key="FileChooserDialogImpl" timestamp="1579061595894">
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580737867743" />
+    <state x="362" y="10" key="CommitChangelistDialog2" timestamp="1581086453198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="708" y="319" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579061595894" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1579183511915">
+    <state x="362" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581086453198" />
+    <state x="708" y="319" key="FileChooserDialogImpl" timestamp="1580738594442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579183511915" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1579183511915">
+    <state x="708" y="319" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580738594442" />
+    <state width="824" height="247" key="GridCell.Tab.0.bottom" timestamp="1580710176571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579183511915" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1579183511913">
+    <state width="824" height="247" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580710176571" />
+    <state width="824" height="247" key="GridCell.Tab.0.center" timestamp="1580710176571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579183511913" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1579183511915">
+    <state width="824" height="247" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580710176571" />
+    <state width="824" height="247" key="GridCell.Tab.0.left" timestamp="1580710176570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579183511915" />
+    <state width="824" height="247" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580710176570" />
+    <state width="824" height="247" key="GridCell.Tab.0.right" timestamp="1580710176571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="824" height="247" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580710176571" />
     <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1578134251615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1578134251615" />
-    <state x="272" y="14" width="1068" height="707" key="SettingsEditor" timestamp="1579183321320">
+    <state x="272" y="14" width="1068" height="707" key="SettingsEditor" timestamp="1581086624484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="14" width="1068" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579183321320" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1577978362091">
+    <state x="272" y="14" width="1068" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581086624484" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1579190270757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577978362091" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579190270757" />
     <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576972840185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576972840185" />
-    <state x="457" y="215" key="git4idea.merge.GitPullDialog" timestamp="1579189632167">
+    <state x="390" y="1" width="755" height="822" key="find.popup" timestamp="1580737822027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="457" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579189632167" />
+    <state x="390" y="1" width="755" height="822" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1580737822027" />
+    <state x="457" y="215" key="git4idea.merge.GitPullDialog" timestamp="1581086802380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1581086802380" />
     <state x="130" y="121" width="1180" height="622" key="new project wizard" timestamp="1579078243375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
